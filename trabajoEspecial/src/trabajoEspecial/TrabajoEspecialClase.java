@@ -33,12 +33,7 @@ public class TrabajoEspecialClase {
 		p12.mostrarPista();*/
 		
 		ListaClase l1 = new ListaClase("Clasicos del Rock");
-		l1.agregarPista(p1);
-		l1.agregarPista(p2);
-		l1.agregarPista(p8);
-		l1.agregarPista(p9);
-		l1.agregarPista(p10);
-		l1.agregarPista(p12);
+		l1.agregarPista(p1);l1.agregarPista(p2);l1.agregarPista(p8);l1.agregarPista(p9);l1.agregarPista(p10);l1.agregarPista(p12);
 		
 		ListaClase l2 = new ListaClase("Lo mejor");
 		l2.agregarPista(p3);l2.agregarPista(p4);l2.agregarPista(p7);l2.agregarPista(p12);
