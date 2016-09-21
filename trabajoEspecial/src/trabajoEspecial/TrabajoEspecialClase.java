@@ -48,6 +48,11 @@ public class TrabajoEspecialClase {
 		l2.mostrarPistas();
 		l3.mostrarPistas();
 		
+		l1.mostrarDuracion();
+		l2.mostrarDuracion();
+		l3.mostrarDuracion();
+		l4.mostrarDuracion();
+		
 		
 	}
 

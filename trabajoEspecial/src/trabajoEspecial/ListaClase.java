@@ -24,12 +24,16 @@ public class ListaClase {
 	}
 	
 	public int getDuracion(){
-		System.out.println(this.nombre);
 		int duracion = 0;
 		for(int i=0; i<this.lista.size(); i++){
             duracion = duracion + lista.get(i).getDuracion();
         }
 		return duracion;
+	}
+	
+	public void mostrarDuracion(){
+		System.out.println("\n" + this.nombre + " - Duracion: " + this.getDuracion());
+		
 	}
 
 	
