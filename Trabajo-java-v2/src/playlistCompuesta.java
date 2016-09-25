@@ -4,10 +4,11 @@ import java.util.*;
 public class playlistCompuesta extends playlist{
 	
 	private String nombre;
-	private Vector <playlist> listado = new Vector<playlist>();
+	private Vector <playlist> listado;
 
 	
 	public playlistCompuesta(String nombre){
+		listado = new Vector<playlist>();
 		this.nombre = nombre;
 	}
 	
